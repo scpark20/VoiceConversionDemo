@@ -1,5 +1,3 @@
-# <center> Voice Conversion Demo </center>
-
 | | **남자1** | **남자2** | **여자1** | **여자2** | **윤석열** | **문재인** | **박근혜** | **송강호** | **이선균** | **유인나** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **남1** <audio src="wavs/남1.wav" controls preload/> | <audio src="wavs/남1-남1.wav" controls preload/> | <audio src="wavs/남1-남2.wav" controls preload/> | <audio src="wavs/남1-여1.wav" controls preload/> | <audio src="wavs/남1-여2.wav" controls preload/> | <audio src="wavs/남1-윤석열.wav" controls preload/> | <audio src="wavs/남1-문재인.wav" controls preload/> | <audio src="wavs/남1-박근혜.wav" controls preload/> | <audio src="wavs/남1-송강호.wav" controls preload/> | <audio src="wavs/남1-이선균.wav" controls preload/> | <audio src="wavs/남1-유인나.wav" controls preload/> |
