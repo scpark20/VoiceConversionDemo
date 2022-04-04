@@ -1,32 +1,7 @@
-# <center> KimchiSpeech: Faster, Lighter and More Controllable TTS with Hierachical VAE and STT-aided Gaussian Attention </center>
+# <center> Voice Conversion Demo </center>
 
-<center> Soochul Park </center>
-
-<center> MODULABS, Seoul, Korea </center>
-
-<center> scpark20@gmail.com </center>
-
-![alt text](pics/kimchispeech.png)
-
-## Abstract
-In this study, we propose a text-to-speech (TTS) model, referred to as KimchiSpeech, which has a hierarchical variational autoencoder (VAE) structure and uses a attention alignment obtained from a speech-to-text (STT) model. The hierarchical VAE structure contributes to the generation of high-quality outputs and a variety of prosody. Because the STT model operates independently of the TTS model, the attention alignment can be obtained robustly. Moreover, the speed of a generated
-speech can be flexibly controlled by soft attention using Gaussian distributions. Furthermore, we propose two configurations of the model, namely KimchiSpeech-W and KimchiSpeech-S. The former is a light version that has only 3.3M parameters for inference, whereas the latter is a fast version that produces outputs 470 times faster than real time on a GPU. The mean opinion score (MOS) results show that the outputs are of state-of-the-art quality.
-<audio src="wavs/kimchispeech_abstract.wav" controls preload></audio>
-
-## Text Examples
-
-Text 1: The Middle Ages brought calligraphy to perfection, and it was natural therefore.
-
-| **GT** | **Tacoton2** |
+| **남자1** | **남자2** | **여자1** | **여자2** | **윤석열** | **문재인** | **박근혜** | **송강호** | **이선균** | **유인나** |
 | :--- | :--- |
-| <audio src="wavs/GT/inference_0_GT.wav" controls preload></audio> | <audio src="wavs/TACO2/inference_0_TACO2.wav" controls preload></audio> |
-| **FastSpeech** | **FastSpeech2** | 
-| :--- | :--- |
-| <audio src="wavs/FS/inference_0_FS.wav" controls preload></audio> | <audio src="wavs/FS2/inference_0_FS2.wav" controls preload></audio> |
-| **KimchiSpeech-W** | **KimchiSpeech-S** |
-| :--- | :--- |
-| <audio src="wavs/KS/inference_0_S5G1.wav" controls preload></audio> | <audio src="wavs/KW/inference_0_W4G1.wav" controls preload></audio> |
-| --- | --- |
 
 Text 2: that the forms of printed letters should follow more or less closely those of the written character, and they followed them very closely.
 
